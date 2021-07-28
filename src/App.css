@@ -1,22 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 :root {
-  --primary-purple: #8527b1;
+  --primary-white: #fff;
+  --primary-purple: #7F00FF;
   --primary-dark: rgb(255 255 255 0);
+  --primary-red: #
 }
 
 body {
   font-family: 'Acme', sans-serif;
 }
 
-/***********  NAVBAR  ***********/
+/**************************************************  NAVBAR  **********************************************/
+.navbar {
+  z-index: 2;
+}
+
 .navbar-brand {
   margin-left: 2%;
-  font-size: 1.6rem !important;
+  padding: 0 !important;
+  height: 3rem !important;
 }
 
 .navbar-nav {
   margin-right: 6%;
+}
+
+@media(max-width: 768px) {
+
+  .navbar-brand h1 {
+    font-size: 1.3rem !important;
+  }
 }
 
 /* --------  Menu Links ---------- */
@@ -48,4 +62,59 @@ nav ul li {
 
 .navbar-toggler {
   margin-right: 2%;
+}
+
+/**************************************************  HEADER  **********************************************/
+.header-wrapper {
+  position: relative;
+  background: url(./images/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 0.85;
+}
+
+.main-info {
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: .2rem;
+}
+
+.main-info h1 {
+  color: var(--primary-purple);
+  font-size: 3rem !important;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+@media(max-width: 768px) {
+  .main-info {
+    padding-top: 32%;
+  }
+  .main-info h1 {
+    font-size: 1.8rem !important;
+  }
+  .typed-text {
+    font-size: 1.2rem !important;
+  }
+}
+
+/* -----------Typed Text -----------*/
+.typed-text {
+  font-size: 2.3rem;
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+
+/*----------- Particles --------- */
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 90vh !important;
+  width: 90vw !important;
+  z-index: 1;
 }
