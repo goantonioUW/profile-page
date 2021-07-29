@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 :root {
   --primary-white: #fff;
   --primary-purple: #7F00FF;
@@ -8,7 +7,7 @@
 }
 
 body {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Gowun Batang', serif !important;
 }
 
 /**************************************************  NAVBAR  **********************************************/
@@ -29,7 +28,7 @@ body {
 @media(max-width: 768px) {
 
   .navbar-brand h1 {
-    font-size: 1.3rem !important;
+    font-size: 1.8rem !important;
   }
 }
 
@@ -81,7 +80,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Acme', sans-serif;
   letter-spacing: .2rem;
 }
 
@@ -117,4 +115,37 @@ nav ul li {
   height: 90vh !important;
   width: 90vw !important;
   z-index: 1;
+}
+
+/**************************************************  About Me  **********************************************/
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--primary-purple);
+}
+
+.about-heading {
+  text-transform: uppercase;
+  color: var(--primary-purple);
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+
+@media(max-width: 468px) {
+  .profile-pic {
+    width: 10rem;
+  }
+
+  .card-text {
+    font-size: 1rem !important;
+  }
 }
