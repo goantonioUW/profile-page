@@ -3,7 +3,9 @@
   --primary-white: #fff;
   --primary-purple: #7F00FF;
   --primary-dark: rgb(255 255 255 0);
-  --primary-red: #
+  --primary-light-grey: #fcc9c9ee;
+  --primary-black: #000000;
+  --primary-blue: #1040BD; 
 }
 
 body {
@@ -147,5 +149,99 @@ nav ul li {
 
   .card-text {
     font-size: 1rem !important;
+  }
+
+  .about-heading {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+}
+
+/************************* PROJECTS  *************************/
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper h1 {
+  color: var(--primary-purple);
+}
+
+.project-pics {
+  width: 15rem !important;
+  height: 10rem !important;
+  border: 2px solid var(--primary-purple);
+  border-radius: 12%;
+}
+
+.project-pic-box {
+  position: relative;
+  margin: 1rem !important;
+
+}
+
+/*---------------- Overflow --------------------*/
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  height: 10rem;
+  width: 15rem;
+  top: 0;
+  border: 2px solid var(--primary-purple);
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+.project-pic-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.project-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 4rem;
+  color: var(--primary-purple);
+  font-size: 2rem;
+}
+
+.project-pic-box:hover .project-icon {
+  opacity: 70%;
+  transition: .3s ease-in-out;
+}
+
+.project-popupbox {
+  max-width: 46rem;
+  max-height: 20rem;
+  width: 30rem;
+  padding: .5rem;
+}
+
+.image-box-wrapper {
+  max-width: 90vw !important;
+}
+
+.link {
+  cursor: pointer;
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--primary-purple);
+}
+
+/*---------------- Media --------------------*/
+@media(max-width: 768px){
+  .project-popupbox {
+    width: 80%;
+  }
+}
+
+@media(max-width: 500px){
+  .project-popupbox {
+    width: 70%;
   }
 }
