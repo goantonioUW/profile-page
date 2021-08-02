@@ -26,7 +26,7 @@ export const Navbar = () => {
                         <Link smooth={true} to="experience" offset={-60} className="nav-link" href="#">Experience</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://docs.google.com/document/d/1v9iZDIqMxv47C8mHScSkbaQbsCwQDXtJeuoDFz46LZY/edit?usp=sharing">Resume</a>
+                        <a className="nav-link" target="_blank" href="https://docs.google.com/document/d/1v9iZDIqMxv47C8mHScSkbaQbsCwQDXtJeuoDFz46LZY/edit?usp=sharing">Resume</a>
                     </li>
                 </ul>
             </div>

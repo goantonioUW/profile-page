@@ -8,35 +8,17 @@ function Footer() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="d-flex">
-                                <p>Email</p>
+                                <a href="mailto:goantonio31@outlook.com">Email</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="d-flex">
-                                <p>linkedIn </p>
+                                <a href="https://www.linkedin.com/in/antonio-gonzalez-34a0771b0/" target="_blank">linkedIn </a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="d-flex">
-                                <p>Github </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-2 col-sm-6">
-                            <div className="row">
-                                <div className="col">
-                                    <a className="footer-nav">Home</a>
-                                    <br />
-                                    <a className="footer-nav">About Me</a>
-                                    <br />
-                                    <a className="footer-nav">Projects</a>
-                                </div>
-                                <div className="col">
-                                    <a className="footer-nav">Experience</a>
-                                    <br />
-                                    <a className="footer-nav">Contact Me</a>
-                                    <br />
-                                    <a className="footer-nav">Resume</a>
-                                </div>
+                                <a href="https://github.com/goantonioUW" target="_blank">Github </a>
                             </div>
                         </div>
                     </div>

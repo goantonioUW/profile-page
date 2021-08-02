@@ -362,6 +362,7 @@ nav ul li {
 .footer a {
   text-decoration: none;
   color: var(--primary-light-grey);
+  margin: auto;
 }
 
 .footer a:hover {
