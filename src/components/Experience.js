@@ -1,7 +1,7 @@
 import React from "react";
 import udemyBootcampCert from '../images/udemyBootcampCert.jpg';
 import udemyEs6Cert from '../images/udemyEs6Cert.jpg';
-
+import uwCert from '../images/uwCert2.jpg';
 
 const Experience = () => {
   return (
@@ -43,7 +43,7 @@ const Experience = () => {
           <div className="timeline-content">
             <h2>03/29/2021</h2>
             <h5>University of Washington Full Stack Web Development Bootcamp</h5>
-            <img className="experience-images" src={udemyBootcampCert} alt="Udemy Cert" />
+            <img className="experience-images" src={uwCert} alt="Udemy Cert" />
           </div>
         </div>
        {/* - */}
@@ -101,7 +101,7 @@ const Experience = () => {
        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h2>2018 - 2019</h2>
+            <h2>2014 - Current</h2>
             <h3>Coach/ Trainer/ Gym Manager</h3>
             <h5>Friends of Hoop Seattle, Bellevue, Wa</h5>
             <ul>
