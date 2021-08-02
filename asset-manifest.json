@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile-page/static/css/main.99c91530.chunk.css",
-    "main.js": "/profile-page/static/js/main.ef593b5b.chunk.js",
-    "main.js.map": "/profile-page/static/js/main.ef593b5b.chunk.js.map",
+    "main.js": "/profile-page/static/js/main.8a71a958.chunk.js",
+    "main.js.map": "/profile-page/static/js/main.8a71a958.chunk.js.map",
     "runtime-main.js": "/profile-page/static/js/runtime-main.ef88dde0.js",
     "runtime-main.js.map": "/profile-page/static/js/runtime-main.ef88dde0.js.map",
     "static/css/2.eade3572.chunk.css": "/profile-page/static/css/2.eade3572.chunk.css",
@@ -19,13 +19,14 @@
     "static/media/news-flow-screenshot.6049599b.gif": "/profile-page/static/media/news-flow-screenshot.6049599b.gif",
     "static/media/profilePic.81d6f583.png": "/profile-page/static/media/profilePic.81d6f583.png",
     "static/media/udemyBootcampCert.57907392.jpg": "/profile-page/static/media/udemyBootcampCert.57907392.jpg",
-    "static/media/udemyEs6Cert.5cfbf64d.jpg": "/profile-page/static/media/udemyEs6Cert.5cfbf64d.jpg"
+    "static/media/udemyEs6Cert.5cfbf64d.jpg": "/profile-page/static/media/udemyEs6Cert.5cfbf64d.jpg",
+    "static/media/uwCert.b7871320.jpg": "/profile-page/static/media/uwCert.b7871320.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ef88dde0.js",
     "static/css/2.eade3572.chunk.css",
     "static/js/2.83258174.chunk.js",
     "static/css/main.99c91530.chunk.css",
-    "static/js/main.ef593b5b.chunk.js"
+    "static/js/main.8a71a958.chunk.js"
   ]
 }
