@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile-page/static/css/main.99c91530.chunk.css",
-    "main.js": "/profile-page/static/js/main.8a71a958.chunk.js",
-    "main.js.map": "/profile-page/static/js/main.8a71a958.chunk.js.map",
+    "main.js": "/profile-page/static/js/main.29f4928a.chunk.js",
+    "main.js.map": "/profile-page/static/js/main.29f4928a.chunk.js.map",
     "runtime-main.js": "/profile-page/static/js/runtime-main.ef88dde0.js",
     "runtime-main.js.map": "/profile-page/static/js/runtime-main.ef88dde0.js.map",
     "static/css/2.eade3572.chunk.css": "/profile-page/static/css/2.eade3572.chunk.css",
@@ -20,13 +20,13 @@
     "static/media/profilePic.81d6f583.png": "/profile-page/static/media/profilePic.81d6f583.png",
     "static/media/udemyBootcampCert.57907392.jpg": "/profile-page/static/media/udemyBootcampCert.57907392.jpg",
     "static/media/udemyEs6Cert.5cfbf64d.jpg": "/profile-page/static/media/udemyEs6Cert.5cfbf64d.jpg",
-    "static/media/uwCert.b7871320.jpg": "/profile-page/static/media/uwCert.b7871320.jpg"
+    "static/media/uwCert2.30e8d714.jpg": "/profile-page/static/media/uwCert2.30e8d714.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ef88dde0.js",
     "static/css/2.eade3572.chunk.css",
     "static/js/2.83258174.chunk.js",
     "static/css/main.99c91530.chunk.css",
-    "static/js/main.8a71a958.chunk.js"
+    "static/js/main.29f4928a.chunk.js"
   ]
 }
