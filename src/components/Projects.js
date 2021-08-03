@@ -17,7 +17,7 @@ const Projects = () => {
         const content = (
         <>
             <img className="project-popupbox" src={newsflow} alt="News by location project..." />
-            <p className="description-text">This app allows users to interact with google maps and based on where they click, news from that area will populate into the news feed section. Users are able to search and view news without signing into a profile. Once the user creates a profile with a valid email and password they will have the ability to save news articles. These saved articles will be added to the users profile page where they can view or delete previously saved articles.</p>
+            <p className="description-text">This app allows users to interact with google maps and based on where they click, news from that area will populate into the news feed section. Users are able to search and view news without signing into a profile. Creating a profile with a valid email and password will allow users to save news articles. These saved articles will be added to the users profile page where they can view or delete previously saved articles.</p>
             <b>Github:</b> <a className="link" onClick={() => window.open("https://github.com/goantonioUW/news-flow")}>Check out the code behind the project</a>
             <hr />
             <b>Live Application:</b> <a className="link" onClick={() => window.open("http://news-flow.herokuapp.com/")}>TRY THE DEPLOYED APP!</a>
@@ -49,7 +49,7 @@ const Projects = () => {
             const content = (
                 <>
                 <img className="project-popupbox" src={burger} alt="App that allows you to create a burger and store it in a DB..." />
-                <p className="description-text">This application is a restaurant app that lets users input the name of burgers they'd like to eat. WHEN a user submits a burger's name, the app will display the burger in the New and Ready to be Devoured! Each burger in the waiting area also has a Devour it! button. WHEN the user clicks it, the burger will move down to the Burgers that have been devoured section. Once the burger has been moved to the Burgers that have been devoured section there will be 2 buttons one lets the user return the burger to the New and Ready to be Devoured section or the Destroy Burger removes it from the Database.</p>
+                <p className="description-text">This app lets users input the name of a burger. WHEN a user submits a burger's name, the app will display the burger in the New and Ready to be Devoured!. WHEN the user clicks it, the burger will move to the devoured section. The devoured section has 2 uptions one lets the user return the burger to the New and Ready to be Devoured section the seccond option is to Destroy the Burger removing it from the Database.</p>
                 <b>Github:</b> <a className="link" onClick={() => window.open("https://github.com/goantonioUW/burger")}>Check out the code behind the project</a>
                 <hr />
                 <b>Live Application:</b> <a className="link" onClick={() => window.open("https://name-a-burger.herokuapp.com/")}>TRY THE DEPLOYED APP!</a>
@@ -115,7 +115,7 @@ const Projects = () => {
             const content = (
                 <>
                 <img className="project-popupbox" src={dailyPlanner} alt="App for creating a daily schedule..." />
-                <p className="description-text">This application is a calendar that lets the user save event information for each hour of the workday. The top of the page displays the current date. As time passes the color of the rows will change to indicate to the user that the event they have entered has passed (shown as red), is current (shown as white) or is upcoming (shown as green). </p>
+                <p className="description-text">This application is a calendar that lets the user save event information for each hour of the workday. The top of the page displays the current date. As time passes the color of the rows will change to indicate to the user that the event they have entered has passed, is current or is upcoming. </p>
                 <b>Github:</b> <a className="link" onClick={() => window.open("https://github.com/goantonioUW/Daily-planner")}>Check out the code behind the project</a>
                 <hr />
                 <b>Live Application:</b> <a className="link" onClick={() => window.open("https://goantoniouw.github.io/Daily-planner/")}>TRY THE DEPLOYED APP!</a>

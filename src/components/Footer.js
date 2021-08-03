@@ -13,12 +13,12 @@ function Footer() {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="d-flex">
-                                <a href="https://www.linkedin.com/in/antonio-gonzalez-34a0771b0/" target="_blank">linkedIn </a>
+                                <a href="https://www.linkedin.com/in/antonio-gonzalez-34a0771b0/" target="_blank" rel="noreferrer">linkedIn </a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="d-flex">
-                                <a href="https://github.com/goantonioUW" target="_blank">Github </a>
+                                <a href="https://github.com/goantonioUW" target="_blank" rel="noreferrer">Github </a>
                             </div>
                         </div>
                     </div>
