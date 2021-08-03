@@ -5,5 +5,5 @@ This is my current portfolio that was made using ReactJs. This portfolio contain
 Click [here](https://goantoniouw.github.io/profile-page/) to go to my Portfolio. 
 
 ## Screenshot
-![Profile Screenshot](../main/profile-page/src/images/profileScreenshot.png)
+![Profile Screenshot](../profile-page/src/images/profileScreenshot.png)
 
