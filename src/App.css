@@ -359,6 +359,11 @@ nav ul li {
   padding: 3rem;
 }
 
+.contact-text {
+  text-align: center;
+  color: var(--primary-purple);
+}
+
 .footer a {
   text-decoration: none;
   color: var(--primary-light-grey);

@@ -5,6 +5,7 @@ function Footer() {
         <>
             <div id="contact" className="footer">
                 <div className="container">
+                    <h3 className="contact-text"> Contact Me </h3>
                     <div className="row">
                         <div className="col">
                             <div className="d-flex">
