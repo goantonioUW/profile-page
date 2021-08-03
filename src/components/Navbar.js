@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a className="navbar-brand" href="#"><h1>Antonio Gonzalez</h1></a>
+            <a className="navbar-brand" href="/"><h1>Antonio Gonzalez</h1></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{color: "#fff"}}/>
             </button>
@@ -26,7 +26,7 @@ export const Navbar = () => {
                         <Link smooth={true} to="experience" offset={-60} className="nav-link" href="#">Experience</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" target="_blank" href="https://docs.google.com/document/d/1v9iZDIqMxv47C8mHScSkbaQbsCwQDXtJeuoDFz46LZY/edit?usp=sharing">Resume</a>
+                        <a className="nav-link" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1v9iZDIqMxv47C8mHScSkbaQbsCwQDXtJeuoDFz46LZY/edit?usp=sharing">Resume</a>
                     </li>
                 </ul>
             </div>
