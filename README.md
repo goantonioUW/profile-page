@@ -7,3 +7,6 @@ Click [here](https://goantoniouw.github.io/profile-page/) to go to my Portfolio.
 ## Screenshot
 ![Profile Screenshot](../profile-page/src/images/profileScreenshot.png)
 
+<img src="images/profileScreenshot.png" width="500">
+
+
