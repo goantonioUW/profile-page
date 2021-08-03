@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
 
-export const Navbar = () => {
+const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <a className="navbar-brand" href="/"><h1>Antonio Gonzalez</h1></a>
@@ -24,6 +24,9 @@ export const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <Link smooth={true} to="experience" offset={-60} className="nav-link" href="#">Experience</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link smooth={true} to="contact" offset={-60} className="nav-link" href="#">Contact Me</Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1v9iZDIqMxv47C8mHScSkbaQbsCwQDXtJeuoDFz46LZY/edit?usp=sharing">Resume</a>
