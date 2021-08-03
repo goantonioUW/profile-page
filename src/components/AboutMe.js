@@ -13,7 +13,14 @@ function AboutMe() {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">A Little About Me!</h1>
-                    <p class="card-text"> My name is Antonio Gonzalez. I am a recent graduate of the Full Stack Web Development Bootcamp at the University of Washington. My goal is to become a full-time software engineer. I was born and raised in Seattle, WA. Growing up, I was always interested in computers and technology. In 8th grade, I attended my first coding camp. Unfortunately, my high school did not offer any classes that related to programming or computer science. After I graduated and attended Bellevue College, I became one of the managers at Nordstrom for women’s designer shoes. I enjoyed; managing a team and leading projects. After being in this position for over a year, COVID hit! During quarantine, I had been looking for different jobs and came across the UW full-stack Bootcamp. I figured this is the perfect time for a career change. After six long months, I graduated from the Bootcamp and am proud to say that I am a FULL-STACK Developer.</p>
+                    <p class="card-text"> My name is Antonio Gonzalez. I was born and raised in Seattle. One of my favorite things is basketball and played through college. I still play today in a Men’s league and coach 4th grade to high school AAU basketball. 
+                    </p>
+                    <p class="card-text">
+                    Before Covid, I worked for Nordstrom as an Asst. Manager for Women’s Designer Shoes, where I really enjoyed managing projects and leading a team for our dept. Unfortunately, I was let go when the pandemic started.
+                    </p>
+                    <p class="card-text">
+                    This really gave me the time to think about what I wanted to do for my career. It brought me back to when I first took a coding class in the 8th grade and I remembered how much I enjoyed it. After doing some research into the field, I found the UW full-Stack Bootcamp and decided it was the perfect time for a career change and to learn something new. After six long months, I am proud to say that I am a FULL-STACK Developer.
+                    </p>
                 </div>
             </div>
             
